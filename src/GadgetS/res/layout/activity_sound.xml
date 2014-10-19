@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+    >
+
+    <Button
+        android:id="@+id/button_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/button_sstart"
+        android:layout_alignBottom="@+id/button_sstart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/button1"
+        android:text="导出" />
+
+    <TextView
+        android:id="@+id/textView_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="录制时间: 00:00" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/button_sstart"
+        android:layout_alignBottom="@+id/button_sstart"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button1"
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/button_sstart"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_sound"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/button1"
+        android:text="开始" />
+
+</RelativeLayout>

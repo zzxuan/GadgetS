@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/stopwatchtextView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textSize="65px"
+         />
+
+    <Button
+        android:id="@+id/button_sstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/stopwatchtextView_time"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="30dp"
+        android:onClick="startwatch"
+        android:background="@drawable/button1"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/button_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_sstart"
+        android:layout_alignBottom="@+id/button_sstart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button1"
+        android:onClick="turn0watch"
+        android:text="归零" />
+
+</RelativeLayout>

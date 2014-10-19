@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonruler"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:background="@drawable/ruler"
+        android:onClick="itemClick" />
+
+    <Button
+        android:id="@+id/buttoncompass"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/comico"
+        android:onClick="itemClick" />
+
+    <Button
+        android:id="@+id/buttonfilemanger"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_above="@+id/buttoncompass"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:background="@drawable/filemanger"
+        android:onClick="itemClick" />
+
+    <Button
+        android:id="@+id/buttonsoundrecord"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/recordsound"
+        android:onClick="itemClick" />
+
+    <TextView
+        android:id="@+id/textViewstopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonstopwatch"
+        android:layout_alignRight="@+id/buttonstopwatch"
+        android:layout_below="@+id/buttonstopwatch"
+        android:gravity="center_horizontal"
+        android:text="秒表"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonstopwatch"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_alignLeft="@+id/buttonfilemanger"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/stopwatch"
+        android:onClick="itemClick" />
+
+    <Button
+        android:id="@+id/buttonflashlight"
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_above="@+id/textViewstopwatch"
+        android:layout_alignLeft="@+id/buttonruler"
+        android:background="@drawable/lightfight"
+        android:onClick="itemClick" />
+
+    <TextView
+        android:id="@+id/TextViewfilemanger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonfilemanger"
+        android:layout_alignRight="@+id/buttonfilemanger"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="找文件"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextViewruler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextViewfilemanger"
+        android:layout_alignBottom="@+id/TextViewfilemanger"
+        android:layout_alignLeft="@+id/buttonruler"
+        android:layout_alignRight="@+id/buttonruler"
+        android:gravity="center_horizontal"
+        android:text="三角尺"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextViewcompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttoncompass"
+        android:layout_alignRight="@+id/buttoncompass"
+        android:layout_below="@+id/buttoncompass"
+        android:gravity="center_horizontal"
+        android:text="指南针"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextViewsoundrecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonsoundrecord"
+        android:layout_alignRight="@+id/buttonsoundrecord"
+        android:layout_below="@+id/buttonsoundrecord"
+        android:gravity="center_horizontal"
+        android:text="录音机"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextViewflashwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewstopwatch"
+        android:layout_alignBottom="@+id/textViewstopwatch"
+        android:layout_alignLeft="@+id/buttonflashlight"
+        android:layout_alignRight="@+id/buttonflashlight"
+        android:gravity="center_horizontal"
+        android:text="手电筒"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mlinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/mbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/mbuton1"/>
+
+        <TextView
+            android:id="@+id/mtextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="秒表"
+        android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/mbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mbuton2" />
+
+        <TextView
+            android:id="@+id/mtextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="找文件"
+        android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/mbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mbuton3"/>
+
+        <TextView
+            android:id="@+id/mtextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="指南针"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mlinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/mbutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mbuton4" />
+
+        <TextView
+            android:id="@+id/mtextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="手电筒"
+        android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/mbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mbuton5" />
+
+        <TextView
+            android:id="@+id/mtextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="三角尺"
+        android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/mbutton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mbuton6" />
+
+        <TextView
+            android:id="@+id/mtextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+        android:text="录音机"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
